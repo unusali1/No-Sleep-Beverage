@@ -1,0 +1,385 @@
+body{
+	font-family: 'Open Sans', sans-serif;
+}
+  
+/* Header CSS Start */
+header {
+  position: fixed;
+  width: 100%;
+  top: 0;
+  z-index: 999;
+}
+.bg-light {
+  background-color: #fff !important;
+}
+.navbar-brand img {
+	width: 150px;
+	height: auto;
+}
+
+li .active{
+  border-color: skyblue;
+  color: #F30FC1 !important;
+ 
+}
+
+.navbar-light .navbar-nav .nav-link {
+	font-family: 'Cantata One';
+	font-weight: 600;
+	font-size: 17px;
+	line-height: 19px;
+	color: #000000;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+	padding-right: 1.2rem;
+	padding-left: 1.2rem;
+}
+/* Header CSS End */
+
+/* Banner Section CSS Start */
+.banner-section video{
+	width: 100%;
+	height: 100%;
+}
+/* Banner Section CSS End */
+
+ 
+/* Purpose-Vision Section CSS Start */
+.purpose-vision-section{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-image: url('../images/purpose-vision.jpg');
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-top: -10px;
+}
+.purpose-vision-section:after{
+	position: absolute;
+	top: 0px;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: '';
+	background: rgba(255, 106, 222, 0.5);
+
+}
+.purpose-vision {
+	position: relative;
+	z-index: 1;
+	padding: 50px 0px;
+	color: #fff;
+	text-align: center;
+}
+.purpose-vision-contne h1 {
+	font-size: 65px;
+	font-weight: 600;
+}
+.purpose-vision-contne p {
+	font-size: 30px;
+}
+
+.purpose-vision-sub-content {
+	background-color: #F7F6F6;
+	padding: 50px 70px;
+	margin: 50px;
+}
+.no-sleep-nomad p b {
+	color: #F30FC1;
+}
+.no-sleep-nomad p {
+	font-size: 20px;
+	line-height: 30px;
+}
+
+.no-sleep-nomad {
+	margin-top: 20px;
+}
+/* Purpose-Vision Section CSS End */
+
+/* About Us Section CSS Start */
+.about-us-bg-section{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-image: url('../images/about-us.jpg');
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.about-us-bg-section:after{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: '';
+	background: rgba(255, 106, 222, 0.5);
+}
+
+.about-us-bg-content {
+	position: relative;
+	z-index: 1;
+	text-align: center;
+	padding: 50px 0px;
+	color: #fff;
+}
+.about-us-bg-content h1 {
+	font-size: 65px;
+	font-weight: 600;
+} 
+.about-us-sub-content{
+	background-color: #F7F6F6;
+	padding: 50px 70px;
+	margin: 50px 0px;
+}
+/* About Us Section CSS End */
+
+/* capital-Partners Section CSS Start */
+.capital-partners-section{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-image: url('../images/istockphoto-892541480-612x612\ 1.png');
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+.capital-partners-section:after{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: '';
+	background: rgba(255, 106, 222, 0.5);
+
+}
+.capital-partners-content {
+	position: relative;
+	z-index: 1;
+	text-align: center;
+	padding: 50px 0px;
+	color: #fff;
+}
+.capital-partners-content h1 {
+	font-size: 65px;
+	font-weight: 600;
+}
+.capital-partners-sub{
+	background-color: #F7F6F6;
+	padding: 50px 70px;
+	margin: 50px 0px;
+}
+
+.seekers-single-contne p {
+	font-size: 20px;
+}
+.seekers-single-contne h1 {
+	margin: 30px 0px;
+	font-weight: 600;
+	color: #F30FC1;
+	font-size: 30px;
+} 
+.about-us-items {
+	display: flex;
+	justify-content: space-between;
+	margin: 40px 0px;
+}
+  
+.capital-partners-single-item {
+	width: 100%;
+	text-align: center;
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	margin: 30px 10px;
+	padding: 10px;
+	border-radius: 10px;
+}
+.capital-partners-single-item img {
+	width: 80px;
+	height: 80px;
+	margin-bottom: 20px;
+}
+.capital-partners-single-item h2 {
+	font-size: 20px;
+	font-weight: 600;
+	color: #F30FC1;
+	margin-bottom: 15px;
+	text-transform: uppercase;
+}
+/* Capital-Partners Section CSS End */
+
+
+/* Team Section CSS Start */
+.team-banner{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-image: url('../images/team.jpg');
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-bottom: 50px;
+}
+.team-banner:after{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: '';
+	background: rgba(255, 106, 222, 0.5);
+
+}
+.team-banner-content {
+	position: relative;
+	z-index: 1;
+	text-align: center;
+	padding: 50px 0px;
+	color: #fff;
+}
+.team-banner-content h1{
+	font-size: 65px;
+	font-weight: 600;
+}
+.team-member-section {
+	margin-top: 80px;
+	margin-bottom: 50px;
+}
+ 
+.team-member-item {
+	box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+	margin: 15px 0px;
+	padding: 20px;
+	/*! border: 2px solid #f30fc1; */
+	border-radius: 0px;
+}
+
+.team-member-right h2 {
+  font-size: 20px;
+  font-weight: 800;
+  line-height: 30px;
+}
+.team-member-right h2 span {
+  color: #f30fc1;
+}
+.team-member-item img {
+	width: 150px;
+	height: auto;
+}
+.team-member-item button {
+	background-color: #f30fc1;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 5px;
+	color: #fff;
+	font-weight: 500;
+} 
+/* Team Section CSS End */
+
+/* Brands  Section CSS End */
+.brands-section{
+	position: relative;
+	width: 100%;
+	height: 100%;
+	background-image: url('../images/brands.jpg');
+	background-position: top center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin-bottom: 50px;
+}
+.brands-section:after{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	content: '';
+	background: rgba(255, 106, 222, 0.5);
+
+}
+.brands-content {
+	position: relative;
+	z-index: 1;
+	text-align: center;
+	padding: 50px 0px;
+	color: #fff;
+}
+.brands-content h1 {
+	font-size: 65px;
+	font-weight: 600;
+}
+/* Brands  Section CSS End */
+
+/* Contact  Section CSS End */
+.contact {
+	width: 60%;
+	margin: auto;
+	text-align: center;
+}
+.contact-content h1 {
+	font-size: 65px;
+	font-weight: 600;
+	color: #f30fc1;
+}
+.contact-content p {
+	font-size: 25px;
+	font-weight: 600;
+	margin-bottom: 50px;
+}
+form input, textarea {
+	background-color: #D9D9D9 !important;
+	padding: 15px 20px !important;
+} 
+ 
+.send-btn {
+	background-color: #F30FC1 !important;
+	padding: 15px 20px;
+	border: none;
+	border-radius: 10px;
+	color: #fff;
+	font-weight: 600;
+	width: 150px;
+}
+.footer-link{
+	color: white;
+}
+
+.footer-item .active {
+  color: #f30fc1;
+}
+/* Contact Section CSS End */
+
+/* Footer  Section CSS End */
+
+footer {
+	background-color: #000000;
+	padding: 40px 0px;
+	color: #fff;
+}
+.footer-left img {
+	width: 150px;
+	height: auto;
+}
+footer li {
+	list-style: none;
+	font-weight: 500;
+}
+footer li a {
+	text-decoration: none;
+	color: #f30fc1;
+	line-height: 30px;
+} 
+footer h2 {
+	font-size: 25px;
+	font-weight: 600;
+}
+/* Footer  Section CSS End */
+
+#more1 {display: none;}
+#more2 {display: none;}
+#more3 {display: none;}
+#more4 {display: none;}
+#more5 {display: none;}
+#more6 {display: none;}
